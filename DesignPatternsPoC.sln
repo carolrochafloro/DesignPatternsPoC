@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepwiseBuilder", "DesignPatternsPoC\StepwiseBuilder.csproj", "{4AF45F75-88B2-46F4-BA5A-277B7B1EDE18}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{EEE0FA93-EE13-4CE5-8F04-4DE43A66D544}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{928A04B8-B613-4D44-BFE8-AD4A96A00139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +17,12 @@ Global
 		{4AF45F75-88B2-46F4-BA5A-277B7B1EDE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AF45F75-88B2-46F4-BA5A-277B7B1EDE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AF45F75-88B2-46F4-BA5A-277B7B1EDE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928A04B8-B613-4D44-BFE8-AD4A96A00139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928A04B8-B613-4D44-BFE8-AD4A96A00139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928A04B8-B613-4D44-BFE8-AD4A96A00139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928A04B8-B613-4D44-BFE8-AD4A96A00139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{4AF45F75-88B2-46F4-BA5A-277B7B1EDE18} = {EEE0FA93-EE13-4CE5-8F04-4DE43A66D544}
 	EndGlobalSection
 EndGlobal
